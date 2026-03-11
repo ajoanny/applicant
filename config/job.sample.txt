@@ -1,0 +1,33 @@
+Au sein de la Innovation Lab d’un grand groupe industriel, vous évoluerez dans un environnement international à forte
+culture produit, conçu comme une startup interne.
+Votre mission consistera à concevoir et déployer des agents IA pour les fonctions internes du groupe, afin de répondre à
+des enjeux d’automatisation, d’assistance métier, d’optimisation des processus et d’exploitation intelligente des données.
+L’Innovation Lab fonctionne selon une approche agile, orientée vers la livraison rapide, l’expérimentation et la mise à
+l’échelle.
+
+Missions principales
+
+- Concevoir et développer des agents IA intégrés aux outils internes.
+- Développer le backend en JavaScript/TypeScript et un framework Node générique.
+- Développer le frontend avec une librairie JavaScript moderne (React-like).
+- Intégrer des services cloud dans une architecture serverless.
+- Concevoir des architectures scalables et sécurisées.
+- Collaborer étroitement avec les équipes produit, data, UX et sécurité.
+- Participer aux choix d’architecture et aux bonnes pratiques de développement.
+- Mettre en production et optimiser les performances.
+- Encadrer une équipe composée de plusieurs développeurs et un product owner.
+
+Stack technique
+
+Backend : Node.js / TypeScript / Framework Node générique
+Frontend : React-like / TypeScript
+Cloud : Cloud public, architecture serverless
+
+Profil recherché
+
+- Minimum 7 ans d’expérience en développement full stack.
+- Maîtrise de JavaScript/TypeScript et d'un framework backend.
+- Maîtrise de framework frontend moderne.
+- Expérience avec cloud et architectures serverless.
+- Connaissance des projets intégrant des composants IA ou APIs d’IA générative appréciée.
+- Expérience en tant que Tech Lead.

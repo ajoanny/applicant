@@ -1,0 +1,46 @@
+Développeur full stack avec 5 ans d’expérience, spécialisé en JavaScript/TypeScript.
+Expérience solide dans le développement backend et frontend, intégration cloud et conception d’architectures scalables.
+Autonome et orienté solution, avec une bonne culture produit.
+
+Compétences techniques
+
+Backend : Node.js, TypeScript, NestJS, Express
+Frontend : React, TypeScript, Redux
+Base de données : PostgreSQL, MongoDB
+Cloud & DevOps : AWS (Lambda, S3, DynamoDB), Serverless, Docker
+Outils : Git, Jira, CI/CD
+Autres : APIs REST/GraphQL, intégration de composants IA
+
+Expérience professionnelle
+
+
+Projet 1: Agent IA interne pour support métier
+
+- Conception et développement d’un agent IA pour l’assistance aux équipes internes.
+- Développement backend en Node.js et NestJS pour la gestion des workflows.
+- Développement frontend en React/TypeScript pour l’interface utilisateur.
+- Intégration avec services cloud AWS dans une architecture serverless.
+- Mise en production et optimisation des performances.
+- Collaboration avec les équipes produit, data, UX et sécurité.
+
+Projet 2: Plateforme d’automatisation des processus internes
+
+Conception et développement d’une plateforme d’automatisation des tâches répétitives.
+
+- Backend Node.js/TypeScript avec microservices et API REST.
+- Frontend React avec dashboard pour visualisation des données.
+- Déploiement sur AWS et gestion d’architectures sécurisées et scalables.
+- Participation aux choix d’architecture et bonnes pratiques de développement.
+
+
+Langues
+
+Français : Langue maternelle
+Anglais : Professionnel (C1)
+
+Points forts
+
+- Développement full stack sur projets complexes.
+- Expérience cloud et serverless.
+- Bonne culture produit et méthodologie agile.
+- Capacité à travailler dans des environnements internationaux.
