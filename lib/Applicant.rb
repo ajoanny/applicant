@@ -22,11 +22,11 @@ module Applicant
 
     check_env!
 
-    desc "generate", "Generate a cover letter using the job description pasted into the terminal and a cover letter."
-    method_option :cover_letter, default: './config/cover-letter.txt', desc: "The path to the cover letter file"
+    desc "generate", "Generate a cover letter using the job description pasted into the terminal and a resume."
+    method_option :resume, default: './config/resume.txt', desc: "The path to the resume file"
     method_option :job, type: :string, desc: "The path to the job description file"
     def generate
-      cover_letter = options[:cover_letter]
+      resume = options[:resume]
 
       if options[:job]
         job_description = File.read(options[:job])
@@ -37,7 +37,7 @@ module Applicant
 
       Applicant::Commands::Generation
         .new(ENV['LLM_MODEL'], ENV['OLLAMA_URL'])
-        .generate(job_description, cover_letter)
+        .generate(job_description, resume)
     end
 
     def self.exit_on_failure?

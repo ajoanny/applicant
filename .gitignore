@@ -11,5 +11,5 @@
 # rspec failure tracking
 .rspec_status
 
-config/cover-letter.txt
+config/resume.txt
 .env

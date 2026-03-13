@@ -10,7 +10,7 @@ module Applicant
         @ollama_url=ollama_url
       end
 
-      def generate job_description, cover_letter_path
+      def generate job_description, resume_path
         self.post({
           model: @model,
           stream: true,
@@ -21,7 +21,7 @@ module Applicant
             },
             {
               role:  'user',
-              content: "CV: #{File.read(cover_letter_path)}"
+              content: "CV: #{File.read(resume_path)}"
             },
             {
               role:  'user',

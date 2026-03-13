@@ -8,6 +8,8 @@ services:
     volumes:
       - ollama-data:/root/.ollama
     command: serve
+    environment:
+      - OLLAMA_ORIGINS=*
 
 volumes:
   ollama-data:

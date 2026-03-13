@@ -69,7 +69,7 @@ bin/applicant.rb generate [OPTIONS]
 
 ### Options
 
-* `--cover_letter=PATH` (default: `./config/cover-letter.txt`)
+* `--resume=PATH` (default: `./config/resume.txt`)
   Path to your existing cover letter template.
 
 * `--job=PATH`
@@ -82,13 +82,13 @@ bin/applicant.rb generate [OPTIONS]
 #### 1. Using a job description file
 
 ```bash
-bin/applicant.rb generate --cover_letter=config/cover-letter.txt --job=job-description.txt
+bin/applicant.rb generate --resume=config/resume.txt --job=job-description.txt
 ```
 
 #### 2. Pasting the job description directly
 
 ```bash
-bin/applicant.rb generate --cover_letter=config/cover-letter.txt
+bin/applicant.rb generate --resume=config/resume.txt
 ```
 
 Then **paste the job description** into the terminal and finish with **EOF**:
@@ -101,7 +101,7 @@ Then **paste the job description** into the terminal and finish with **EOF**:
 ### Example Piped Usage
 
 ```bash
-cat job-description.txt | bin/applicant.rb generate --cover_letter=config/cover-letter.txt
+cat job-description.txt | bin/applicant.rb generate --resume=config/resume.txt
 ```
 
 ---
@@ -119,7 +119,7 @@ bin/applicant.rb help generate
 
 ### Notes
 
-* The CLI reads the job description, combines it with the cover letter template, and generates a new cover letter output in the terminal.
+* The CLI reads the job description, combines it with the resume template, and generates a new cover letter output in the terminal.
 * Ensure your template file exists and is readable.
 * Make sure the Ollama container is running and the model you want is pulled before generating the cover letter.
 * **Environment variables** `LLM_MODEL` and `OLLAMA_URL` must be set before running the CLI.
