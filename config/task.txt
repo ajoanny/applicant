@@ -14,7 +14,7 @@ Rédige une lettre de motivation.
 
 Contraintes:
 - Langue : français.
-- Style : professionnel et concis.
+- Style : naturel et concis.
 - 150 à 180 mots
 - Pas de phrases génériques
 - Pas de personalisation
